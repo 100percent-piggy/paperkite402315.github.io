@@ -18,51 +18,85 @@
 		background-color: #777;
 		color: white;
 	}
-	 s1
-	{
-		  font-size: 20px;
-  		color: red;
-	}
-	
+ 
 	body 
 	{
+		  margin: 0;
+		  padding: 0;
 		text-align: center;
 	}
 
-	a {
-		text-decoration: none;
-		color: black;
+ 
+	h2{
+	margin: 0; /* 移除默认的外边距 */
+	padding: 20px; /* 添加内边距 */
 	}
+	  p{
 
-	section:nth-child(2n) {
-		background-color: #eee;
+	margin: 0; /* 移除默认的外边距 */
+	padding: 20px; /* 添加内边距 */
 	}
+	
+	.a
+	{
+		background-color: #ccc;
+		/* float: left;
+  		width: 50%;*/
+	}
+	.a:hover
+	{
+		background-color: #aaa;
+		/* float: left;
+  		width: 50%;*/
+	}
+	
+	.b
+	{
+				/* float: left;
+  		width: 50%;*/
+		background-color: #eee
 
+	}
+	.b:hover
+	{
+				/* float: left;
+  		width: 50%;*/
+		background-color: #aaa
+	
 </style>
 </head>
 		
 <body>
-	<section style=background-color: #eee;>
-<p style="background-color: #000000;"> 
+
+<p style="background-color: #000000; 	
+		  margin: 0; /* 移除默认的外边距 */
+			padding: 20px; /* 添加内边距 */"> 
  <a href="#C1" class="my-link">个人信息</a> 
  <a href="#C2"class="my-link">联系方式</a> 
  <a href="#C3"class="my-link">教育经历</a>
 </p> 
- 
-<section style=background-color: #eee;>
-	<h2><a name="C1">个人信息：</a></h2>
-	<p>姓名：paperkite</p><br>
-</section>
+
+ <div class="a"> 
+	<br><h2  >
+	 <a name="C1">个人信息：</a></h2>
+	 
+	<p>姓名：paperkite<br><br>
+	 性别：x <br><br>
+	物种：人类</p><br><br><br>
+ </div>
 	
-<section>
-	<h2><a name="C2">联系方式</a></h2>
-	<p style="background-color: #ffffff;">邮箱：2605157536@qq.com</p>
-</section>	
+  <div class="b"> 
+	<br><h2 ><a name="C2">联系方式</a></h2>
+	<p >邮箱：2605157536@qq.com<br><br>
+	电话：xxxxxxxxxxx<br><br>
+	Facebook：xxxxxxxxxxx<br><br>
+	Twtitter：xxxxxxxxxxx</p><br>
+  </div>
 	
-<section>
-	<h2><a name="C3">教育经历</a></h2>
-	<p>吉林大学本科</p><br>
-	</section>
+  <div class="a"> 
+	<br><h2><a name="C3">教育经历</a></h2>
+	<p>吉林大专本科</p><br>
+  </div>
 	
 </body>
 </html>
